@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+/*rounded img borders*/
+img {
+  border-radius: 20px;
+  width:100%;
+}
+/* glowing effect */
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: cursive;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: pink;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  /*outline style*/
+  outline-color:white;
+  outline-style: solid;
+  outline-offset: -10px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+    <title>⋆.˚⋆cheezni⋆.˚⋆</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+
+<div class="header">
+  <h1 class="glow">⋆.˚⋆cheezni⋆.˚⋆</h1>
+  <p>sub title blah blah blah</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+</div>
+
+<div class="row">
+  <div class="column">
+    <h2>liz</h2>
+
+<p>testing border-radius????</p>
+
+<img src="ive-the-3rd-ep-ive-empathy-concept-photo-2-liz.png">
+
+  </div>
+  
+  <div class="column">
+    <h2>another column</h2>
+    <p>list:</p>
+
+    <ul>
+      <li>First thing</li>
+      <li>Second thing</li>
+      <li>Third thing</li>
+    </ul>
+  </div>
+  
+  <div class="column">
+    <h2>last column</h2>
+    <p>listen</p>
+     <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7vwi3kXdpkaRO3if4N2gBN?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+</div>
+
+</body>
+</html>
+
+
