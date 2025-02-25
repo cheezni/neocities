@@ -31,12 +31,6 @@ img {
   box-sizing: border-box;
 }
 
-body {
-  background-color: white;
-  font-family: cursive;
-  margin: 0;
-}
-
 /* Style the header */
 .header {
   background-color: black;
@@ -47,7 +41,7 @@ body {
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: pink;
+  background-color: black;
 }
 
 /* Style the topnav links */
@@ -62,8 +56,8 @@ body {
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 /* Create three equal columns that floats next to each other */
@@ -102,10 +96,12 @@ body {
 <div class="header">
   <h1 class="glow">⋆.˚⋆cheezni⋆.˚⋆</h1>
   <p>sub title blah blah blah</p>
+  <img src="cheezni.png" alt="cheezni icon" style="width:128px;height:128px;">
 </div>
 
 <div class="topnav">
-  <a href="#">Link</a>
+  <a href="index.html">home</a>
+  <a href="newpage1.html">new page 1</a>
   <a href="#">Link</a>
   <a href="#">Link</a>
 </div>
