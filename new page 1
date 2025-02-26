@@ -95,15 +95,16 @@ img {
 <body>
 
 <div class="header">
-  <h1 class="glow">new page 1</h1>
-  <p>sub title blah blah blah</p>
+  <h1 class="glow">⋆.˚⋆cheezni⋆.˚⋆</h1>
+  <p>new page 1</p>
 </div>
 
 <div class="topnav">
   <a href="index.html">home</a>
   <a href="newpage1.html">new page 1</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
+  <a href="log.html">log</a>
+  <a href="#">webtoons</a>
+  <a href="#">album scans</a>
 </div>
 
 <div class="row">
