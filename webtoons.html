@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--link rel="stylesheet" type="text/css" href="/style.css"-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/*gallery stuff*/
+div.gallery {
+  margin: 5px;
+  border: 2px solid #837e31;
+  border-radius: 10px;
+  float: left;
+  width: 180px;
+  height: 320px;
+}
+
+div.gallery:hover {
+  border: 2px solid #837e31;
+  background-color: #f8b6ba;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/*rounded img borders*/
+img {
+  border-radius: 10px;
+  padding: 5px;
+}
+
+body {
+  background-color: #f5ecc2;
+  color: #837e31;
+  font-family: "Poppins", serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the header */
+.header {
+  padding: 5px;
+  text-align: left;
+  font-size: 20px
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #837e31;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  background-color: #837e31;
+  color: 	#f5ecc2;
+  font-family: "Poppins", serif;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ca92a8;
+  color: #f5ecc2;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 25px;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+    <title>webtoons</title>
+</head>
+<body>
+
+<div class="header">
+  <img src="sanzo-wada-13-grid.png" alt="sanzo-wada" style="float:left;width:150px;height:150p">
+  <h1>cheezni</h1>
+  <p style="color:#ca92a8">webtoons
+  </p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">home</a>
+  <a href="log.html">log</a>
+  <a href="webtoons.html">webtoons</a>
+  <a href="#">album scans</a>
+  <a href="resources.html">resources</a>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://www.lezhinus.com/en/library/comic/en-US/high_clear_en">
+    <img src="https://ccdn.lezhin.com/v2/comics/6588798335778816/images/tall.webp?updated=1719559074641&width=420" alt="High Clear">
+  </a>
+  <div class="desc">High Clear
+  <p> ★★★★★ </p>
+  </div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://www.lezhinus.com/en/library/comic/en-US/fate">
+    <img src="https://ccdn.lezhin.com/v2/comics/6656829320200192/images/tall.webp?updated=1738893834560&width=420" alt="Fate Makes No Mistakes">
+  </a>
+  <div class="desc">Fate Makes No Mistakes</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://www.lezhinus.com/en/library/comic/en-US/paws_claws">
+    <img src="https://ccdn.lezhin.com/v2/comics/7011732688407495/images/tall.webp?updated=1734400758140&width=420" alt="Paws & Claws">
+  </a>
+  <div class="desc">Paws & Claws</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://www.lezhinus.com/en/library/comic/en-US/spinach_bouquet">
+    <img src="https://ccdn.lezhin.com/v2/comics/5929335359078400/images/tall.webp?updated=1715933313334&width=420" alt="Spinach Bouquet">
+  </a>
+  <div class="desc">Spinach Bouquet</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://tapas.io/series/debut-or-die/info">
+    <img src="https://us-a.tapas.io/sa/6d/b93c563d-933a-4c45-8ba8-231cb5e12ecb_z.jpg" alt="Debut or Die!">
+  </a>
+  <div class="desc">Debut or Die!</div>
+</div>
+
+</body>
+</html>
